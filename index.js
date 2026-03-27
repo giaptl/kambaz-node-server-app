@@ -3,7 +3,7 @@ import express from "express";
 import cors from "cors";
 import session from "express-session";
 import Hello from "./Hello.js";
-import Lab5 from "./Lab5/index.js";
+import Lab5 from "./lab5/index.js";
 import db from "./kambaz/database/index.js";
 import UserRoutes from "./kambaz/users/routes.js";
 import CourseRoutes from "./kambaz/courses/routes.js";
