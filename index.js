@@ -37,7 +37,6 @@ if (process.env.SERVER_ENV !== "development") {
     sameSite: "none",
     secure: true,
     httpOnly: false,
-    domain: process.env.SERVER_URL,
   };
 }
 app.use(session(sessionOptions));
